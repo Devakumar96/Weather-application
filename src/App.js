@@ -38,7 +38,7 @@ const App = () => {
         
 
 
-        {data.name !=undefined &&
+        {data.name !==undefined &&
           <div className='bottom'>
           <div className='feels'>{data.main ? <p className='bold'>{data.main.feels_like.toFixed()}°f</p> : null}<p>feels like</p></div>
 
