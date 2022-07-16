@@ -1,10 +1,12 @@
+import React,{useState} from 'react'
+import axios from 'axios'
 
-function App() {
+const App = () => {
   return (
-    <>
-     <h1>Hello React</h1>
-    </>
-  );
+    <div>
+      <h1>Hello</h1>
+    </div>
+  )
 }
 
-export default App;
+export default App
